@@ -7,4 +7,8 @@
 
 <MAP NAME="TRANSFORM" TIMEOUT="" MODE="STANDALONE">
 </MAP>
+
+<INVOKE NAME="PartnerIntegration" SERVICE="pi.db.adapterservices:selectOrderByCorrelationId">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
