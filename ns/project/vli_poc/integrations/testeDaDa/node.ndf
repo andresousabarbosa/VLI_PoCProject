@@ -45,15 +45,34 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="createdDate">1785175038400</value>
-    <value name="lastModifiedDate">1785175038400</value>
+    <value name="lastModifiedBy">ANDRE.BARBOSA@ibm.com</value>
+    <value name="lastModifiedDate">1785181298966</value>
     <value name="displayName">testeDaDa</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
         <value name="name">TRANSFORM</value>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">PartnerIntegration</value>
+          <value name="groupName">PartnerIntegration;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">pi.db.adapterservices:selectOrderByCorrelationId</value>
+          <value name="serviceName">pi.db.adapterservices:selectOrderByCorrelationId</value>
+          <value name="displayName">selectOrderByCorrelationId</value>
+          <value name="assetType">Adapter Service</value>
+          <value name="nsName">pi.db.adapterservices:selectOrderByCorrelationId</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
