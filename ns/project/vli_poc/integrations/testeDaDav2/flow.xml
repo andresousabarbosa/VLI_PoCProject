@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" TIMEOUT="" SERVICE="pub.flow:debugLog" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -72,6 +72,7 @@
         <value name="is_global">false</value>
       </record>
     </array>
+    <value name="rec_closed">false</value>
     <value name="modifiable">true</value>
   </record>
 </Values>
@@ -90,6 +91,7 @@
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
     </array>
+    <value name="rec_closed">false</value>
     <value name="modifiable">true</value>
   </record>
 </Values>
@@ -112,7 +114,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="PartnerIntegration" SERVICE="pi.db.adapterservices:selectOrderByCorrelationId">
+<INVOKE NAME="PartnerIntegration" TIMEOUT="" SERVICE="pi.db.adapterservices:selectOrderByCorrelationId" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -156,6 +158,7 @@
             <value name="is_global">false</value>
             <array name="rec_fields" type="record" depth="1">
             </array>
+            <value name="rec_closed">false</value>
             <value name="modifiable">true</value>
           </record>
           <record javaclass="com.wm.util.Values">
@@ -170,6 +173,7 @@
             <value name="is_global">false</value>
           </record>
         </array>
+        <value name="rec_closed">false</value>
         <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
@@ -185,6 +189,7 @@
         <value name="is_global">false</value>
       </record>
     </array>
+    <value name="rec_closed">false</value>
     <value name="modifiable">true</value>
   </record>
 </Values>
@@ -203,6 +208,7 @@
     <value name="is_global">false</value>
     <array name="rec_fields" type="record" depth="1">
     </array>
+    <value name="rec_closed">false</value>
     <value name="modifiable">true</value>
   </record>
 </Values>
@@ -224,4 +230,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT>Teste Dada</COMMENT>
+</MAP>
 </FLOW>
