@@ -8,6 +8,7 @@ packages:
   gitUsername: andresousabarbosa
   gitBranch: main
 - name: PartnerIntegration
+  version: "1.0"
   gitServerName: git_andrebarbosa
   gitUrl: https://github.com/andresousabarbosa
   gitUsername: andresousabarbosa
