@@ -15,3 +15,8 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.0.0
+- name: PartnerIntegration
+  gitServerName: git_andrebarbosa
+  gitUrl: https://github.com/andresousabarbosa
+  gitUsername: andresousabarbosa
+  gitBranch: main
