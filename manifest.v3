@@ -12,18 +12,19 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="PartnerIntegration">1.0</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
+    <value name="WmMicrosoftAzureStorageProvider">12.0.0.0.16</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">17</value>
+  <value name="build">18</value>
   <null name="description"/>
   <value name="created_date">27-07-2026 17:53:52 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-08-07T19:20:19.326188909Z</value>
+  <value name="lastUpdated">2026-08-07T19:21:50.249581339Z</value>
   <value name="wmProjectId">flf1e6031ce1664f458617b0b83ca50f11</value>
   <value name="creator">ANDRE BARBOSA</value>
 </Values>

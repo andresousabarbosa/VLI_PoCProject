@@ -17,3 +17,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
   wpmVersion: v10.3.10.25
+- name: WmMicrosoftAzureStorageProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+  wpmVersion: v12.0.0
