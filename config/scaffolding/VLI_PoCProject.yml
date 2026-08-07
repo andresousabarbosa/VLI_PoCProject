@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/andresousabarbosa
   gitUsername: andresousabarbosa
   gitBranch: main
-- name: PartnerIntegration
-  version: "1.0"
-  gitServerName: git_andrebarbosa
-  gitUrl: https://github.com/andresousabarbosa
-  gitUsername: andresousabarbosa
-  gitBranch: main
 - name: WmJDBCAdapter
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
