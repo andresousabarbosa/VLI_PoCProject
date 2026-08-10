@@ -8,7 +8,19 @@ packages:
   gitUsername: andresousabarbosa
   gitBranch: main
 - name: PartnerIntegration
+  version: "1.0"
   gitServerName: git_andrebarbosa
   gitUrl: https://github.com/andresousabarbosa
   gitUsername: andresousabarbosa
   gitBranch: main
+services:
+- serviceName: project.vli_poc.integrations:testeDada
+  packages:
+  - name: VLI_PoCProject
+    version: "1.0"
+  - name: PartnerIntegration
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.878
