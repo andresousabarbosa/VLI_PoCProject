@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="createdDate">1786383921153</value>
-    <value name="lastModifiedDate">1786383921153</value>
+    <value name="lastModifiedBy">ANDRE.BARBOSA@ibm.com</value>
+    <value name="lastModifiedDate">1786383978589</value>
     <value name="displayName">restOrderRequest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
