@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="3.2" CLEANUP="false">
+<FLOW VERSION="3.2" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="PartnerIntegration" TIMEOUT="" SERVICE="pi.demo.vli.restservice:receivePartnerOrder" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
-</SEQUENCE>
-
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
