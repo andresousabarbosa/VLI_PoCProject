@@ -7,5 +7,10 @@
 
 <INVOKE NAME="PartnerIntegration" TIMEOUT="" SERVICE="pi.demo.vli.soap:submitOrderToVLI" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+</MAP>
 </INVOKE>
 </FLOW>
