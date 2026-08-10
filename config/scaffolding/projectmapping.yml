@@ -8,6 +8,8 @@ runtimes:
     path: /order-request
     action: POST
     reference: fld_113323404_stage00.projects.fl0a86a876fb144ced80484280ac1008d8.WmPackageServiceProvider.project.vli_poc.integrations:restOrderRequest
+- runtimeAlias: EdgeRuntimeOracle
+  assets:
   - name: fld_113323404_stage00.projects.fl0a86a876fb144ced80484280ac1008d8.integrations:soapOrderRequestInterface
     type: flow
     stepId: /0
