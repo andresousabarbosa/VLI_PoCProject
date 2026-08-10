@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: VLI_PoCProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: OrderRequest
+    type: REST
+    path: /order-request
+    action: POST
+    reference: fld_113323404_stage00.projects.fl0a86a876fb144ced80484280ac1008d8.WmPackageServiceProvider.project.vli_poc.integrations:restOrderRequest
