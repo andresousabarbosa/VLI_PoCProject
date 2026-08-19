@@ -12,3 +12,7 @@ runtimes:
     path: /order
     action: POST
     reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.pi.demo.vli.restservice:receivePartnerOrder
+  - name: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.integrations:OrderRequestInterface
+    type: flow
+    stepId: /0
+    reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.pi.demo.vli.soap:submitOrderToVLI
