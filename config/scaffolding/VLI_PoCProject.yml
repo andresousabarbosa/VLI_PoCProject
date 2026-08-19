@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/andresousabarbosa
   gitUsername: andresousabarbosa
   gitBranch: main
+- name: PartnerIntegration
+  gitServerName: git_andrebarbosa
+  gitUrl: https://github.com/andresousabarbosa
+  gitUsername: andresousabarbosa
+  gitBranch: main
 services:
 - serviceName: project.vli_poc.integrations:testeDada
   packages:
