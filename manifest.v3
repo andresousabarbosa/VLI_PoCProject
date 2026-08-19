@@ -16,11 +16,11 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">7</value>
   <null name="description"/>
   <null name="created_date"/>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-08-19T14:23:13.310862536Z</value>
+  <value name="lastUpdated">2026-08-19T14:24:49.265306086Z</value>
 </Values>
