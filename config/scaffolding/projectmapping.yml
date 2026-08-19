@@ -1,16 +1,14 @@
 version: "1.0"
 projectName: VLI_PoCProject
 runtimes:
-- runtimeAlias: Cloud Designtime
-  assets:
-  - name: OrderRequest
-    type: REST
-    path: /order
-    action: POST
-    reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.project.vli_poc.integrations:restOrderRequest
 - runtimeAlias: EdgeRuntimeOracle
   assets:
   - name: fld_113323404_stage00.projects.fl0a86a876fb144ced80484280ac1008d8.integrations:soapOrderRequestInterface
     type: flow
     stepId: /0
     reference: fld_113323404_stage00.projects.fl0a86a876fb144ced80484280ac1008d8.WmPackageServiceProvider.project.vli_poc.integrations:soapOrderRequest
+  - name: OrderRequest
+    type: REST
+    path: /order
+    action: POST
+    reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.pi.demo.vli.restservice:receivePartnerOrder
