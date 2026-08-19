@@ -38,12 +38,10 @@
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
-          <value name="rec_closed">false</value>
           <value name="modifiable">true</value>
           <value name="rec_ref">pi.contracts.doc:OrderRequest</value>
         </record>
       </array>
-      <value name="rec_closed">false</value>
       <value name="modifiable">true</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
@@ -79,7 +77,6 @@
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
-          <value name="rec_closed">false</value>
           <value name="modifiable">true</value>
           <value name="rec_ref">pi.common.doc:SuccessResponse</value>
         </record>
@@ -99,12 +96,10 @@
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
-          <value name="rec_closed">false</value>
           <value name="modifiable">true</value>
           <value name="rec_ref">pi.common.doc:ErrorResponse</value>
         </record>
       </array>
-      <value name="rec_closed">false</value>
       <value name="modifiable">true</value>
     </record>
   </record>
@@ -123,17 +118,33 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">ANDRE.BARBOSA@ibm.com</value>
-    <value name="lastModifiedDate">1786384024756</value>
+    <value name="lastModifiedDate">1787146434185</value>
     <value name="displayName">restOrderRequest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">PartnerIntegration</value>
+          <value name="groupName">PartnerIntegration;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">receivePartnerOrder</value>
+          <value name="serviceName">pi.demo.vli.restservice:receivePartnerOrder</value>
+          <value name="displayName">receivePartnerOrder</value>
+          <value name="assetType">Flow Service</value>
+          <null name="nsName"/>
+          <value name="itemType">flowService</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
     </record>
   </record>
