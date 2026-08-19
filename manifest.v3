@@ -15,8 +15,13 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
+<<<<<<< HEAD
   <value name="build">26</value>
   <value name="description"></value>
+=======
+  <value name="build">27</value>
+  <null name="description"/>
+>>>>>>> branch 'main' of https://github.com/andresousabarbosa/VLI_PoCProject.git
   <value name="created_date">10-08-2026 15:10:14 GMT</value>
   <array name="extendedProperties" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
@@ -38,7 +43,7 @@
   </array>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-08-19T12:41:13.714711138Z</value>
+  <value name="lastUpdated">2026-08-19T12:54:29.50240389Z</value>
   <value name="wmProjectId">fl0a86a876fb144ced80484280ac1008d8</value>
   <value name="creator">ANDRE BARBOSA</value>
 </Values>
