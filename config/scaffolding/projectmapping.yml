@@ -11,4 +11,4 @@ runtimes:
     type: REST
     path: /order-request
     action: POST
-    reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.project.vli_poc.integrations:restOrderRequest
+    reference: fld_113323404_stage00.projects.fl41e0a40b66b24415a9f1636d144caac1.WmPackageServiceProvider.pi.demo.vli.restservice:receivePartnerOrder
